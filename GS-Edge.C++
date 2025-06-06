@@ -100,15 +100,15 @@ void loop() {
     jaSoouNaZonaVermelha = false;
   } else {
     // Situação de risco
-    lcd.setCursor(4, 0);
+    lcd.setCursor(3, 0);
     if (!umidOK)
-      lcd.print(umid < umidMin ? "Alto risco " : "Alto Risco ");
+      lcd.print(umid < umidMin ? "Pouca umidade" : "Alto Risco de");
     else if (!altOK)
       lcd.print(alt < altMin ? "Nivel Baixo" : "Nivel Alto");
 
-    lcd.setCursor(4, 1);
+    lcd.setCursor(3, 1);
     if (!umidOK)
-      lcd.print(umid < umidMin ? "de seca" : "de enchente");
+      lcd.print(umid < umidMin ? "no ar" : "chuvas fortes");
     else if (!altOK)
       lcd.print(alt < altMin ? "de agua" : "de agua");
 
@@ -159,9 +159,9 @@ void loop() {
 
 // Define os limites de segurança para umidade e altura
 void checarUmidTemp() {
-  umidMin = 40;
-  umidMax = 65;
-  altMin = 50;
+  umidMin = 50;
+  umidMax = 80;
+  altMin = 80;
   altMax = 200;
   delay(300); // Pequeno atraso
 }
