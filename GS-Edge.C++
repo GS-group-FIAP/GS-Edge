@@ -159,7 +159,7 @@ void loop() {
 
 // Define os limites de segurança para umidade e altura
 void checarUmidTemp() {
-  umidMin = 50;
+  umidMin = 40;
   umidMax = 80;
   altMin = 80;
   altMax = 200;
