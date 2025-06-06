@@ -202,10 +202,11 @@ Os dados armazenados periodicamente na EEPROM.
 
 👨‍💻 Créditos
 Desenvolvido por:
-Kauê de Almeida Pena – RA: 564211
+Kauê de Almeida Pena – RM: 564211
 
 
-Gabriel Ferreira Machado – RA: 562330
+Gabriel Ferreira Machado – RM: 562330
 
 Link Simulação: https://wokwi.com/projects/432655217224597505
+Link Youtube: https://youtu.be/kKskKFK-kXM
 
