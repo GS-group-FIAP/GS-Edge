@@ -207,6 +207,9 @@ Kauê de Almeida Pena – RM: 564211
 
 Gabriel Ferreira Machado – RM: 562330
 
+João Stellare - 565813
+
 Link Simulação: https://wokwi.com/projects/432655217224597505
-Link Youtube: https://youtu.be/kKskKFK-kXM
+
+Link Youtube: https://youtu.be/wAZG33JHI9M
 
